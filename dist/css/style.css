@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1d1d1b;
+} 
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input, select{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #16B5FF; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    background-color: #16B5FF; 
+    border-color: #16B5FF; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 165px;   
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  button:hover{
+    background-color: blue; 
+    border-color: blue; 
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    font-size: 10px;
+    line-height: 20px;
+    width: 260px;
+    height: 17px;
+    position: absolute;
+    top:735px;
+    left: 630px;
+  }
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+  }
+
+  hr{
+    border: 1px solid #16B5FF;
+    width: 400px;
+    height: 0px;
+    margin-right: 46px;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: rgba(0, 0, 0, 0.25);
+  }
+  
+   
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid blue;
+  }
+  
+  

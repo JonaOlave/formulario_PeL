@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Registrate</h1>
+     
+              <form>       
+    
+                
+                    <p>
+                      <label>Primer nombre
+                      </label>
+                        <input type="text" required="obligatorio">
+                    </p>
+
+                    <p>
+                        <label>Apellido
+                        </label>
+                          <input type="text" required="obligatorio">
+                      </p>
+                  
+                    <p>
+                      <label>Dirección de e-mail
+                      </label>
+                        <input type="email" required="obligatorio">
+                    </p>
+
+                    <p>
+                        <label>Confirma tu e-mail
+                        </label>
+                          <input type="email" required="obligatorio">
+                      </p>
+                    
+                    <div class="linea"><hr></div>
+                    
+                      
+                    <p>
+                        <label>Indicanos tu rut</label>
+                          <span>Sin puntos, ni guión ( Uso confidencial, de conformidad a la Ley N°19.628)</span>
+                        
+                          <input type="text" required="obligatorio" placeholder="12345678-9" id="rut" minlength="11" maxlength="12">
+                      </p>
+                      
+                      <p>
+                        <label for="nombre" class="colocar_nombre">¿De qué región eres?
+                        </label>
+                          <select>
+                            <option value="">Selecciona tu Ciudad</option>
+                            <option value="">Ciudad 1</option>
+                            <option value="">Ciudad 2</option>
+                            <option value="">Ciudad 3</option>
+                            <option value="">Ciudad 4</option>
+                            <option value="">Ciudad 5</option>
+                          </select>
+                      </p>
+                  
+                    <button type="submit"><p>Registrar</p></button>      
+                
+              </form>
+        </div>  
+      </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script src="./dist/js/jquery.rut.js"></script>
+<script src="./dist/js/rut.js"></script>
+</html>
