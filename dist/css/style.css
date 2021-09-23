@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -8,6 +9,66 @@ body{
     line-height: 29px;
     color: #1d1d1b;
 } 
+
+.logo{
+  width: 242.02px;
+  height: 157.03px;
+}
+
+.titulo-principal{
+  font-family: 'Rubik', sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  color: #000000;
+}
+
+.linea {
+  border-top: 1px solid #16B5FF;
+  height: 2px;
+  max-width: 100%;
+  padding: 0;
+  margin: 10px auto 0 auto;
+}
+
+.color-titulo{
+font-family: 'Rubik', sans-serif; 
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+color: #16B5FF;
+}
+
+.color-texto{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
+
+.color-descripcion{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+/* Formulario */
+
+.titulo-formulario{
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #1D1D1B;
+}
   
   .contact_form{  
     width: 460px; 
@@ -35,8 +96,14 @@ body{
   }
   
   label{
-    display: block; 
-    float: center;  
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1D1D1B;
+  display: block; 
+  float: center;  
   }
   
   
@@ -62,7 +129,7 @@ body{
   
   
   button p{
-    color: #fff; 
+    color: #fff;
   }
   
   
@@ -75,20 +142,6 @@ body{
     top:735px;
     left: 630px;
   }
-  
-  h1{
-    font-size: 39px;  
-    text-align: letf; 
-    padding-bottom: 20px; 
-  }
-
-  hr{
-    border: 1px solid #16B5FF;
-    width: 400px;
-    height: 0px;
-    margin-right: 46px;
-  }
-  
   
   ::-webkit-input-placeholder {
    color: rgba(0, 0, 0, 0.25);
